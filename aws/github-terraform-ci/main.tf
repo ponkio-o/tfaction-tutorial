@@ -33,7 +33,7 @@ resource "aws_iam_openid_connect_provider" "github" {
 # IAM Roles
 
 module "aws" {
-  source = "github.com/suzuki-shunsuke/terraform-aws-tfaction?ref=v0.2.1"
+  source = "github.com/suzuki-shunsuke/terraform-aws-tfaction?ref=v0.2.2"
 
   name        = "github"
   main_branch = "main"
